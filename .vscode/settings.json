@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "prettier.requireConfig": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "editor.codeActionsOnSave": {
+   "source.fixAll": true,
+   "source.organizeImports": true,
+   "source.sortMembers": true
+ },
+ "typescript.preferences.importModuleSpecifier": "relative"
+}
