@@ -8,6 +8,7 @@
     "next/core-web-vitals",
     "next/typescript"
   ],
+  "ignores": ["**/*.mjs"],
   "rules": {
     "semi": ["error", "always"],
     "prettier/prettier": [
