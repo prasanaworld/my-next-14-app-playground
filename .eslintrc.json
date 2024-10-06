@@ -1,4 +1,20 @@
 {
   "plugins": ["eslint-plugin-unused-imports"],
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals",
+    "next/typescript"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }

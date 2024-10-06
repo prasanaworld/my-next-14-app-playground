@@ -5,10 +5,14 @@
   "prettier.requireConfig": true,
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
+  "javascript.suggest.paths": true,
+  "typescript.suggest.paths": true,
   "editor.codeActionsOnSave": {
-   "source.fixAll": true,
-   "source.organizeImports": true,
-   "source.sortMembers": true
- },
- "typescript.preferences.importModuleSpecifier": "relative"
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
